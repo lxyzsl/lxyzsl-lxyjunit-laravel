@@ -1,0 +1,26 @@
+{
+    "name": "lxy\/lxyjunit-laravel",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lxy",
+            "email": "499218100@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lxy\\LxyjunitLaravel\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lxy\\LxyjunitLaravel\\Providers\\LxyjunitServiceProvider"
+            ]
+        }
+    }
+}
